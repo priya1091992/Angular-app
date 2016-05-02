@@ -1,0 +1,8 @@
+<div>
+  <h2>Selected Item</h2>
+  <li *ngIf='hero'>
+    <span>{{hero.id}}: {{hero.name}}</span>
+    <br>
+    Changed Name:<input [(ngModel)]=hero.name>
+  </li>
+</div>
